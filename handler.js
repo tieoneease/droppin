@@ -2,7 +2,7 @@
 
 // Your first function handler
 module.exports.hello = (event, context, cb) => {
-  console.log('Is this working?');
+  console.log('Var: ', process.env.lol);
   cb(null, {message: 'lol'});
 };
 
